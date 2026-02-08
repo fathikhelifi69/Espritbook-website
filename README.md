@@ -11,11 +11,7 @@ Simple, static FrontOffice and BackOffice pages for a university library project
 - Open the site directly: double-click `FrontOffice/index.html` in your file manager and view in a browser.
 - Or serve locally for full feature parity (recommended):
 
-```bash
-# from project root
-python -m http.server 8000
-# then open http://localhost:8000/FrontOffice/
-```
+
 
 **Project Structure**
 - **FrontOffice:** `FrontOffice/` — public pages and styles
@@ -49,16 +45,11 @@ Errors are shown inline next to fields and the form also exposes an alert-style 
 **Contributing**
 - Fork, create a feature branch, commit changes, push and open a pull request. For quick local changes: commit and push to the repo remote.
 
-**License**
-- No license file included. Add a `LICENSE` (MIT, Apache-2.0, etc.) if you want to permit reuse.
-
 **Next steps (suggested)**
 - Copy the icomoon font files into `FrontOffice/icomoon/fonts/` so icons render correctly.
 - Add a `LICENSE` file and a short `CONTRIBUTING.md` if you plan to accept external contributions.
 
 ---
 
-If you want, I can commit the README for you and push it to the remote now.
-# EspritBook Website
 
 A simple static front/back office for EspritBook.
