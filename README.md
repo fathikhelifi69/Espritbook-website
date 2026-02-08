@@ -1,6 +1,6 @@
 ﻿**EspritBook — University Library Website**
 
-Simple, static FrontOffice and BackOffice pages for a university library project. Built with plain HTML, CSS and vanilla JavaScript so beginners can read and extend the code easily.
+Simple, static FrontOffice and BackOffice pages for a university library project. Built with plain HTML, CSS and vanilla JavaScript .
 
 **Features**
 - **FrontOffice:** Public landing page with hero, product/cards and responsive navigation. File: [FrontOffice/index.html](FrontOffice/index.html)
