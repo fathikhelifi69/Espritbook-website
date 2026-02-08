@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a New Book</title>
+    <!-- Local styles (PlainAdmin snippets copied into style.css) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Add a New Book</h1>
+        <form id="addBookForm" novalidate>
+            <div class="input-style-1">
+                <label for="title">Title:</label>
+                <input id="title" name="title" type="text" placeholder="Enter book title">
+                <div id="titleError" class="error" aria-live="polite"></div>
+            </div>
+
+            <div class="input-style-1">
+                <label for="author">Author:</label>
+                <input id="author" name="author" type="text" placeholder="Enter author's name">
+                <div id="authorError" class="error" aria-live="polite"></div>
+            </div>
+
+            <div class="input-style-1">
+                <label for="pubDate">Publication Date:</label>
+                <input id="pubDate" name="pubDate" type="date">
+                <div id="dateError" class="error" aria-live="polite"></div>
+            </div>
+
+            <div class="input-style-1">
+                <label>Language:</label>
+                <div class="radio-style">
+                    <label><input type="radio" name="language" value="AN" checked> AN</label>
+                    <label><input type="radio" name="language" value="FR"> FR</label>
+                </div>
+                <div id="langError" class="error" aria-live="polite"></div>
+            </div>
+
+            <div class="select-style-1">
+                <label for="status">Status:</label>
+                <div class="select-position">
+                    <select id="status" name="status">
+                        <option value="Disponible">Available</option>
+                        <option value="Indisponible">Unavailable</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="input-style-1">
+                <label for="copies">Number of Copies:</label>
+                <input id="copies" name="copies" type="number" min="1" placeholder="Enter number of copies">
+                <div id="copiesError" class="error" aria-live="polite"></div>
+            </div>
+
+            <div class="select-style-1">
+                <label for="category">Category:</label>
+                <div class="select-position">
+                    <select id="category" name="category">
+                        <option value="">-- Choose category --</option>
+                        <option>Science</option>
+                        <option>Literature</option>
+                        <option>Technology</option>
+                        <option>History</option>
+                        <option>Arts</option>
+                    </select>
+                </div>
+                <div id="categoryError" class="error" aria-live="polite"></div>
+            </div>
+
+            <div class="form-actions">
+                <button class="main-btn primary-btn" type="submit">Add Book</button>
+            </div>
+        </form>
+    </div>
+    
+    <script src="addBook.js"></script>
+</body>
+</html>
